@@ -1,0 +1,260 @@
+/* ============================================
+    General CSSS
+ ===========================================================*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body{
+    background: #eee;
+}
+
+
+/* ============================================
+    SERVICES PAGE CSSS
+ ===========================================================*/
+
+.box{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.our-services{
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20,27,202,.17)
+}
+
+.our-services .icon{
+    margin-bottom: -21px;
+    transform: translateY(-50%);
+    text-align: center;
+    background: #ff6a00 ;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin-left: 35%;
+    font-size: 40px;
+}
+
+.our-services:hover h4, .our-services:hover p{
+    color: #fff
+}
+
+.speedup:hover{
+    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+}
+
+/* ============================================
+    About Us PAGE CSSS
+ ===========================================================*/
+ .about-us{
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20,27,202,.17)
+}
+
+.social a{
+    margin: 10px;
+    border: 1px solid #3b5998;
+    border-radius: 5px;
+    padding: 10px;
+    background: #3b5998;
+    color: #fff;
+}
+
+/* ============================================
+    Homepage PAGE CSSS
+ ===========================================================*/
+ .why-choose-us img{
+    height: 600px;
+ }
+
+ .choose-title{
+    padding-top:20%;
+ }
+
+ .partners-content img{
+    border: 5px solid #f55b2a;
+    border-radius: 50px;
+    margin: 20px;
+ }
+
+
+
+ 
+/* ============================================
+    Contact PAGE CSSS
+ ===========================================================*/
+
+/* Style main content */
+.main-content{
+    padding: 0 212px 96px 212px ;
+    display: flex;
+    justify-content: space-between;
+    color: #1F3F68;
+}
+.main-content .information{
+    float: right;
+}
+.address p:not(:first-child),
+.phone p:not(:first-of-type),
+.online-service p:not(:first-child){
+    
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+span>svg{
+    line-height: 26px;
+    vertical-align: middle;
+}
+.information .address>p:first-of-type,
+.information .phone>p:first-of-type,
+.information .online-service>p:first-of-type,
+.input p:first-of-type{    
+    padding-bottom: 24px;
+    padding-top: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #1F3F68;
+}
+
+/* Input section */
+.input{
+    width: 540px;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+}
+.wrapper{
+    padding: 24px 56px;
+}
+.wrapper .form-input{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px;
+    padding-left: 10px;
+}
+.wrapper .form-input label{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #f55b2a;
+    opacity: 0.8;
+    padding-bottom: 8px;
+}
+.wrapper .form-input input:nth-child(-n+2),
+.wrapper .form-input textarea{
+    height: 72px;
+    opacity: 0.4;
+    border: 1px solid #f55b2a;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 42.33px;
+}
+.wrapper .form-input input:nth-child(-n+2)::placeholder,
+.wrapper .form-input input:nth-child(-n+2)::-moz-placeholder,
+.wrapper .form-input input:nth-child(-n+2)::-webkit-input-placeholder,
+.wrapper .form-input textarea::placeholder,
+.wrapper .form-input textarea::-moz-placeholder,
+.wrapper .form-input textarea::-webkit-input-placeholder{
+    font-size: 16px;
+    line-height: 30px;
+    vertical-align: middle;
+    letter-spacing: 0.04em;
+    color: #f55b2a;
+    opacity: 0.2;
+}
+.wrapper .form-input:nth-last-child(1) button{
+    width: 428px;
+    height: 72px;
+    background: #f55b2a;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.map-wrapper{
+    padding: 0 216px 96px 216px;
+    margin:auto
+}
+
+
+
+/* ============================================
+    Foooter Section CSSS
+ ===========================================================*/
+footer{
+    background: #f55b2a;
+    border-radius: 0px 200px 0px 0px;    
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+.footer-wrapper hr{
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+.footer-wrapper>.footer-links.column-one{
+    font-size: 16px;
+}
+.footer-wrapper>.footer-links .column-one:nth-child(n+2){
+    font-size: 16px;
+}
+.footer-wrapper>.footer-links .column-one>.logo-wrapper>p{
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+}
+.footer-wrapper>.footer-links>.column-two>a,
+.footer-wrapper>.footer-links>.column-three>a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
+.footer-wrapper>.footer-links .header-2{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+div.footer-wrapper > div.copyright{
+    opacity: 0.4;
+    padding-top: 10px;
+}
+
+.logo-footer{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
