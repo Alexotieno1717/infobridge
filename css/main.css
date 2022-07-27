@@ -13,6 +13,8 @@ body{
 }
 
 
+
+
 /* ============================================
     SERVICES PAGE CSSS
  ===========================================================*/
@@ -40,7 +42,8 @@ body{
     margin-bottom: -21px;
     transform: translateY(-50%);
     text-align: center;
-    background: #ff6a00 ;
+    background: #711F69 ;
+    color: #FFFFFF;
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -56,7 +59,7 @@ body{
 .speedup:hover{
     box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
     cursor: pointer;
-    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+    background-image: linear-gradient(-45deg, #AB5424 0%, #EE8E20 100%)
 }
 
 /* ============================================
@@ -95,7 +98,7 @@ body{
  }
 
  .partners-content img{
-    border: 5px solid #f55b2a;
+    border: 5px solid #F29421;
     border-radius: 50px;
     margin: 20px;
  }
@@ -163,7 +166,7 @@ span>svg{
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.04em;
-    color: #f55b2a;
+    color: #711F69;
     opacity: 0.8;
     padding-bottom: 8px;
 }
@@ -171,7 +174,7 @@ span>svg{
 .wrapper .form-input textarea{
     height: 72px;
     opacity: 0.4;
-    border: 1px solid #f55b2a;
+    border: 1px solid #711F69;
     box-sizing: border-box;
     border-radius: 10px;
     padding-left: 42.33px;
@@ -192,7 +195,7 @@ span>svg{
 .wrapper .form-input:nth-last-child(1) button{
     width: 428px;
     height: 72px;
-    background: #f55b2a;
+    background: #711F69;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
     font-size: 16px;
@@ -213,7 +216,7 @@ span>svg{
     Foooter Section CSSS
  ===========================================================*/
 footer{
-    background: #f55b2a;
+    background: #F29421;
     border-radius: 0px 200px 0px 0px;    
     line-height: 26px;
     letter-spacing: 0.05em;
